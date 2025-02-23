@@ -7,6 +7,7 @@ Feature: Reprodução Contínua de Vídeos
     Then o vídeo deve começar a partir do minuto 15
 
   Scenario: O próximo episódio é reproduzido automaticamente
-    Given o usuário assistiu um episódio inteiro de uma série
+    Given o usuário está logado na Netflix
+    And o usuário assistiu um episódio inteiro de uma série
     When o episódio termina
     Then o próximo episódio deve começar automaticamente
