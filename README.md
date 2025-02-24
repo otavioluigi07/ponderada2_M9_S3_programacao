@@ -16,6 +16,7 @@ Análise:
 - Essa abordagem demonstra que o requisito não funcional está sendo atendido de forma consistente, desde que a simulação corresponda ao comportamento real desejado.
 
 2. Escalabilidade e Desempenho (Aspectos de RNF)
+
 Aspecto Avaliado:
 
 *Embora o exemplo fornecido seja uma simulação simples, a ideia de reprodução automática do próximo episódio está relacionada a como o sistema lida com a transição entre conteúdos sem impactar a experiência do usuário.*
