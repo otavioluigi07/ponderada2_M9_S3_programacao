@@ -5,7 +5,7 @@
 1. Confiabilidade e Consistência do Comportamento
 Aspecto Avaliado:
 
-## O RNF “O próximo episódio é reproduzido automaticamente” exige que, ao concluir um episódio, o sistema automaticamente inicie o próximo sem intervenção do usuário.
+*O RNF “O próximo episódio é reproduzido automaticamente” exige que, ao concluir um episódio, o sistema automaticamente inicie o próximo sem intervenção do usuário.*
 
 Análise:
 
@@ -18,7 +18,7 @@ Análise:
 2. Escalabilidade e Desempenho (Aspectos de RNF)
 Aspecto Avaliado:
 
-## Embora o exemplo fornecido seja uma simulação simples, a ideia de reprodução automática do próximo episódio está relacionada a como o sistema lida com a transição entre conteúdos sem impactar a experiência do usuário.
+*Embora o exemplo fornecido seja uma simulação simples, a ideia de reprodução automática do próximo episódio está relacionada a como o sistema lida com a transição entre conteúdos sem impactar a experiência do usuário.*
 
 Análise:
 
@@ -27,11 +27,11 @@ Análise:
 - Testes unitários garantem que essa transição ocorra de forma previsível, contribuindo para a robustez do sistema.
 - Para aferir a qualidade completa do RNF em um ambiente de produção, seriam necessários testes de carga e de desempenho, mas a simulação já ajuda a identificar se o fluxo básico está correto.
 
-## 3. Facilidade de Manutenção e Testabilidade
+*3. Facilidade de Manutenção e Testabilidade*
 
 Aspecto Avaliado:
 
-## Um requisito não funcional de qualidade deve permitir que a aplicação seja testada e mantida com facilidade.
+*Um requisito não funcional de qualidade deve permitir que a aplicação seja testada e mantida com facilidade.*
 
 Análise:
 
@@ -39,7 +39,7 @@ Análise:
 - A utilização de frameworks como pytest e Behave permite que alterações futuras sejam testadas de forma automatizada, garantindo que o comportamento esperado (como o autoplay) continue funcionando mesmo após mudanças no código.
 - Esse modelo modular e testável é um indicador de alta qualidade no atendimento dos requisitos não funcionais.
 
-## 4. Conclusão
+*4. Conclusão*
 
 A qualidade dos requisitos não funcionais (neste caso, o autoplay do próximo episódio) pode ser aferida de forma positiva se considerarmos que:
 
